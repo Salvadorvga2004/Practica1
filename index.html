@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Mi Página Sencilla</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       margin-top: 50px;
+      margin-bottom: 80px; /* para que el footer no tape contenido */
     }
     header {
       background-color: #4CAF50;
       color: white;
       padding: 20px 0;
       margin-bottom: 40px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 15px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
     }
     button {
       padding: 10px 20px;
@@ -23,34 +33,16 @@
 </head>
 <body>
   <header>
-    <h2>Mi página</h2>
+    <h2>Mi sitio</h2>
   </header>
 
   <h1>¡Hola Mundo!</h1>
   <p>Esta es una página HTML</p>
   <button onclick="alert('¡Haz hecho clic en el botón!')">Haz clic aquí</button>
+
+  <footer>
+    <p>© 2025 Mi Página. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Mi Página Sencilla</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 50px;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-    }
-  </style>
-</head>
-<body>
-  <h1>¡Hola Mundo!</h1>
-  <p>Esta es una página HTML</p>
-  <button onclick="alert('¡Haz hecho clic en el botón!')">Haz clic aquí</button>
-</body>
-</html>
+
